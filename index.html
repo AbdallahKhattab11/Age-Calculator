@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator App</title>
+  <!-- styling file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <main>
+    <div class="content">
+      <section class="form">
+        <form >
+          <ul>
+            <li>
+              <label >DAY</label>
+              <input type="text" class="day">
+              <div class="error err-day"></div>
+            </li>
+            <li>
+              <label >MONTH</label>
+              <input type="text" class="month">
+              <div class="error err-month"></div>
+            </li>
+            <li>
+              <label >YEAR</label>
+              <input type="text" class="year">
+              <div class="error err-year"></div>
+            </li>
+          </ul>
+
+        </form>
+      </section>
+
+      <section class="middle">
+        <div >
+          <hr>
+          <button type="submit" id="btn">
+            <img src="images/icon-arrow.svg" alt="">
+          </button>
+        </div>
+      </section>
+
+      <section class="result">
+        <div class="result-container">
+          <div class="year">
+            <span class="year-date">--</span>
+            <p>years</p>
+          </div>
+
+          <div class="month">
+            <span class="month-date">--</span>
+            <p>months</p>
+          </div>
+
+          <div class="day">
+            <span class="day-date">--</span>
+            <p>days</p>
+          </div>
+          
+        </div>
+      </section>
+
+    </div>
+  </main>
+  <footer>
+    <div>
+      copyright 
+      <span><i class="fa-solid fa-copyright"></i></span>
+      2024, coded by 
+      <a href="https://www.facebook.com/profile.php?id=100030245752684&mibextid=JRoKGi" target="_blank">Abdallah Khattab</a></div>
+  </footer>
+  
+  <script src="main2.js"></script>
+</body>
+</html>
